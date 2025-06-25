@@ -1,0 +1,284 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hi",
+              "Hello",
+              "Hey",
+              "Good morning",
+              "Good evening"
+          ],
+          "responses": [
+              "Hello! How can I assist you with your health concerns?",
+              "Hi there! How can I help you today?",
+              "Hey! What health-related questions do you have?"
+          ]
+      },
+      {
+          "tag": "what_is_brain_tumor",
+          "patterns": [
+              "What is a brain tumor?",
+              "Explain brain tumor",
+              "Definition of brain tumor"
+          ],
+          "responses": [
+              "A brain tumor is an abnormal growth of cells in the brain. Some tumors are benign (non-cancerous), while others are malignant (cancerous). Tumors can affect brain function and require medical attention."
+          ]
+      },
+      {
+          "tag": "brain_tumor_symptoms",
+          "patterns": [
+              "What are the symptoms of a brain tumor?",
+              "Signs of brain tumor?",
+              "Explain brain tumor symptoms?",
+              "How do I know if I have a brain tumor?"
+          ],
+          "responses": [
+              "Symptoms of a brain tumor may include headaches, seizures, nausea, vision problems, and difficulty with balance or speech.",
+              "Common signs of a brain tumor are persistent headaches, memory loss, and changes in behavior or personality."
+          ]
+      },
+      {
+          "tag": "brain_tumor_risk",
+          "patterns": [
+              "Brain tumor risk?",
+              "Am I at risk for brain tumors?",
+              "Who is more likely to get brain tumors?"
+          ],
+          "responses": [
+              "Risk factors for brain tumors include exposure to high doses of radiation, family history, and certain genetic conditions. However, most brain tumors occur without a known cause."
+          ]
+      },
+      {
+          "tag": "brain_tumor_causes",
+          "patterns": [
+              "What causes brain tumors?",
+              "Why do brain tumors happen?",
+              "Risk factors for brain tumors?"
+          ],
+          "responses": [
+              "The exact cause of brain tumors is often unknown, but risk factors include genetic conditions, exposure to radiation, and a family history of brain tumors."
+          ]
+      },
+      {
+          "tag": "brain_tumor_diagnosis",
+          "patterns": [
+              "How is a brain tumor diagnosed?",
+              "Tests for brain tumor?",
+              "How do doctors find brain tumors?"
+          ],
+          "responses": [
+              "Brain tumors are typically diagnosed using imaging tests like MRI or CT scans, followed by a biopsy to confirm the type of tumor."
+          ]
+      },
+      {
+          "tag": "brain_tumor_treatment",
+          "patterns": [
+              "How are brain tumors treated?",
+              "Treatment options for brain tumors?",
+              "What is the cure for brain tumors?",
+              "treatment"
+          ],
+          "responses": [
+              "Treatment for brain tumors depends on the type and location of the tumor. Options include surgery, radiation therapy, and chemotherapy."
+          ]
+      },
+      {
+          "tag": "brain_tumor_prevention",
+          "patterns": [
+              "Can brain tumors be prevented?",
+              "How to avoid brain tumors?",
+              "Preventive measures for brain tumors?",
+              "prevention"
+          ],
+          "responses": [
+              "There is no sure way to prevent brain tumors, but reducing exposure to radiation and maintaining a healthy lifestyle may lower the risk."
+          ]
+      },
+      {
+          "tag": "brain_tumor_types",
+          "patterns": [
+              "Types of brain tumors?",
+              "What are the different kinds of brain tumors?",
+              "Are all brain tumors cancerous?",
+              "categories of brain tumor"
+          ],
+          "responses": [
+              "Brain tumors can be benign (non-cancerous) or malignant (cancerous). Common types include gliomas, meningiomas, and pituitary tumors."
+          ]
+      },
+      {
+          "tag": "brain_tumor_prognosis",
+          "patterns": [
+              "What is the survival rate for brain tumors?",
+              "Prognosis for brain tumor patients?",
+              "Can brain tumors be cured?"
+          ],
+          "responses": [
+              "The prognosis for brain tumors depends on the type, size, and location of the tumor, as well as the patient's overall health. Early detection and treatment improve outcomes."
+          ]
+      },
+      {
+          "tag": "mri_scan_guidance",
+          "patterns": [
+              "Where can I get an MRI scan?",
+              "How do I find an MRI scan center?",
+              "Nearest MRI scan facility?"
+          ],
+          "responses": [
+              "MRI scans are available at hospitals, diagnostic centers, and specialized imaging clinics. You can check with your doctor or use online maps to locate the nearest MRI scan center."
+          ]
+      },
+      {
+          "tag": "long_query_response",
+          "patterns": [
+              "Can you tell me about brain tumor symptoms, treatments, and causes?",
+              "Explain everything about brain tumors."
+          ],
+          "responses": [
+              "Brain tumor symptoms include headaches, seizures, and vision problems. Causes are often unknown but may include genetic factors and radiation exposure. Treatment options include surgery, radiation therapy, and chemotherapy. Would you like me to explain any of these in detail?"
+          ]
+      },
+      {
+          "tag": "yes_no_questions",
+          "patterns": [
+              "Can brain tumors be cured?",
+              "Is brain tumor deadly?"
+          ],
+          "responses": [
+              "The ability to cure a brain tumor depends on the type, location, and stage of the tumor. Some benign tumors can be removed completely, while malignant tumors often require ongoing treatment."
+          ]
+      },
+      {
+          "tag": "general_health_tips",
+          "patterns": [
+              "How can I stay healthy?",
+              "Tips for a healthy life?",
+              "What are some general health tips?"
+          ],
+          "responses": [
+              "To stay healthy, eat a balanced diet, exercise regularly, get enough sleep, manage stress, and go for regular check-ups. Avoid smoking and excessive alcohol consumption."
+          ]
+      },
+      {
+          "tag": "follow_up_questions",
+          "patterns": [
+              "Tell me more",
+              "What about surgery?",
+              "Can you explain further?"
+          ],
+          "responses": [
+              "Sure! Could you specify which part you'd like more details on? I can explain symptoms, treatments, risks, and more."
+          ]
+      },
+      {
+          "tag": "fever_symptoms",
+          "patterns": [
+              "What are the symptoms of fever?",
+              "Signs of fever?"
+          ],
+          "responses": [
+              "Common symptoms of fever include high temperature, chills, sweating, headache, muscle aches, and dehydration."
+          ]
+      },
+      {
+          "tag": "cold_cough_symptoms",
+          "patterns": [
+              "Symptoms of common cold?",
+              "What are the signs of a cough?"
+          ],
+          "responses": [
+              "Common cold symptoms include runny nose, sneezing, sore throat, and cough. A persistent cough may indicate an infection or allergy."
+          ]
+      },
+      {
+          "tag": "infection_prevention",
+          "patterns": [
+              "How to prevent infections?",
+              "Ways to avoid infections?"
+          ],
+          "responses": [
+              "Prevent infections by maintaining good hygiene, washing hands regularly, avoiding contact with sick people, and staying up-to-date on vaccinations."
+          ]
+      },
+      {
+          "tag": "medicine_advice",
+          "patterns": [
+              "What medicines are used for fever?",
+              "Which tablets are good for cold?"
+          ],
+          "responses": [
+              "For fever, common medications include Paracetamol and Ibuprofen. For cold and cough, decongestants and antihistamines like Cetirizine or Diphenhydramine may help. Always consult a doctor before taking any medication."
+          ]
+      },
+      {
+          "tag": "precautions_advice",
+          "patterns": [
+              "What precautions should I take for fever?",
+              "How to prevent cold and flu?"
+          ],
+          "responses": [
+              "Stay hydrated, rest well, and monitor your temperature for fever. For cold and flu, maintain good hygiene, avoid crowded places, and boost immunity with vitamin C."
+          ]
+      },
+      {
+          "tag": "emergency_advice",
+          "patterns": [
+              "What to do in a brain tumor emergency?",
+              "Emergency steps for brain tumor symptoms?",
+              "When to see a doctor for brain tumor?"
+          ],
+          "responses": [
+              "If you experience severe symptoms like sudden seizures, severe headaches, or loss of consciousness, seek emergency medical help immediately."
+          ]
+      },
+      {
+          "tag": "covid19_info",
+          "patterns": [
+              "What are the symptoms of COVID-19?",
+              "How to protect against COVID-19?"
+          ],
+          "responses": [
+              "COVID-19 symptoms include fever, cough, difficulty breathing, and fatigue. Protect yourself by wearing masks, social distancing, and getting vaccinated."
+          ]
+      },
+      {
+          "tag": "fallback_response",
+          "patterns": [
+              " "
+          ],
+          "responses": [
+              "I'm sorry, but I can only assist with medical and brain tumor-related queries. Could you ask something related to health?",
+              "I'm here to help with brain tumor detection and related medical information. Let me know if you have any health-related concerns!"
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": [
+              "Bye",
+              "Goodbye",
+              "See you later"
+          ],
+          "responses": [
+              "Goodbye! Take care of your health!",
+              "See you later! Stay healthy!",
+              "Take care and stay safe!"
+          ]
+      },
+      {
+          "tag": "fallback",
+          "patterns": [
+              "I don't understand",
+              "Can you rephrase?",
+              "That question is out of scope",
+              "Unknown question"
+          ],
+          "responses": [
+              "I'm sorry, but I couldn't understand your query. Could you please rephrase it?",
+              "I'm not sure about that. Try asking a different question related to brain tumors or medical assistance.",
+              "That seems to be outside my knowledge scope. I can help with medical queries regarding brain tumors."
+          ]
+      }
+  ]
+}
